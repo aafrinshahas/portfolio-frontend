@@ -1,0 +1,100 @@
+import todo from './images/login-page.png'
+import weather from './images/weather.png'
+import aara from './images/aara.png'
+import moms from './images/moms.png'
+import random from './images/random.png'
+import sharp from './images/sharp.png'
+import bookapp from './images/bookapp.png'
+import { useState } from 'react'
+
+function ProjectList(){
+   const List = [
+    {   id: 1,
+        img: bookapp,
+        title: 'Bookshelf',
+        desc: 'Bookshelf is a web application built with React.js and Tailwind CSS for the frontend, Express.js for the backend, and MongoDB Atlas for the database. It allows users to create accounts, log in, view book descriptions, and save their favorite books.',
+        link: 'https://bookapp-pi.vercel.app/',
+        github: 'https://github.com/aafrinshahas/bookapp-frontend'
+    },
+    {   id: 2,
+        img: todo,
+        title: 'Activity Tracker App',
+        desc: 'This is a activity tracker app built using React.js, Tailwind CSS for styling, React Router for navigation, and LocalStorage for storing the activity list.',
+        link: 'https://actodo-chi.vercel.app/',
+        github: 'https://github.com/aafrinshahas/actodo'
+    },
+    {   id: 2,
+        img: weather,
+        title: 'Weather App',
+        desc: 'This is a weather application built with React.js, Tailwind CSS, and Axios. Based on the user enter city name it fetches weather data from the OpenWeather API and displays it in the browser.',
+        link: 'https://weather-app-lake-tau-11.vercel.app/',
+        github: 'https://github.com/aafrinshahas/weather-app'
+    },
+    {   id: 3,
+        img: aara,
+        title: 'Aara Beauty Salon',
+        desc: 'This project is a responsive website for beauty salon built using HTML, CSS, and JavaScript. It is designed to adapt and display properly on various devices, including desktops, tablets, and smartphones.',
+        link: 'https://aafrinshahas.github.io/Aara-beauty-salon/',
+        github: 'https://github.com/aafrinshahas/Aara-beauty-salon'
+    },
+    {   id: 4,
+        img: moms,
+        title: `Mom's Belief`,
+        desc: 'This project is a responsive landing page built using HTML, CSS, and JavaScript. It is designed to adapt and display properly on various devices, including desktops, tablets, and smartphones.',
+        link: 'https://aafrinshahas.github.io/moms-belief/',
+        github: 'https://github.com/aafrinshahas/moms-belief'
+    },
+    {   id: 5,
+        img: random,
+        title: 'Random Number Checker App',
+        desc: 'Check out this sleek and functional Random Number Checker built with React.js and styled using Tailwind CSS.',
+        link: 'https://random-number-checker.vercel.app/',
+        github: 'https://github.com/aafrinshahas/random-number-checker'
+    },
+    {   id: 6,
+        img: sharp,
+        title: 'Sharp & Suave Online Store',
+        desc: 'Welcome to Sharp & Suave, It is a responsive sample template for trendy mens fashion items. Our online store offers a curated collection of stylish clothing.',
+        link: 'https://aafrinshahas.github.io/nostra-web/',
+        github: 'https://github.com/aafrinshahas/nostra-web'
+    }
+   ]
+
+    const [visible, setVisible] = useState(3)
+
+    function handleView(){
+        setVisible((prev) => prev + 3)
+    }
+   
+    return(
+        <>
+          <div className="card-container pt-6 flex justify-between flex-wrap gap-8 ">
+          {
+            List.slice(0,visible).map((item)=>{
+              return(
+                <div className="card shadow-lg shadow-slate-950 flex-grow" key={item.id}>
+                <div className="image-section">
+                <img src={item.img} className='img' alt='logo page'/>
+                <div className="overlay text-white text-2xl">
+                <a href={item.link} target='_blank'><i class="fa-regular fa-eye px-2"></i></a>
+                <a href={item.github} target='_blank'><i class="fa-brands fa-github px-2"></i></a>
+                </div>
+                </div> 
+                <h3 className='text-[#00EA96] py-2 font-semibold text-xl'>{item.title}</h3>
+                <p className='text-[#EDEDED]'>{item.desc}</p>
+             </div>
+              )
+            })
+          }
+         
+        </div>
+        <div className="btns text-center pt-14">
+                    <button className='font-semibold px-5 py-2 rounded-r-3xl rounded-bl-3xl uppercase text-black bg-[#00EA96]' onClick={handleView}>view more</button>
+                </div>
+              
+        </>
+      
+    )
+}
+
+export default ProjectList;
