@@ -5,6 +5,7 @@ import moms from './images/moms.png'
 import random from './images/random.png'
 import sharp from './images/sharp.png'
 import bookapp from './images/bookapp.png'
+import urban from './images/urban.png'
 import { useState } from 'react'
 
 function ProjectList(){
@@ -23,35 +24,42 @@ function ProjectList(){
         link: 'https://actodo-chi.vercel.app/',
         github: 'https://github.com/aafrinshahas/actodo'
     },
-    {   id: 2,
+    {   id: 3,
         img: weather,
         title: 'Weather App',
         desc: 'This is a weather application built with React.js, Tailwind CSS, and Axios. Based on the user enter city name it fetches weather data from the OpenWeather API and displays it in the browser.',
         link: 'https://weather-app-lake-tau-11.vercel.app/',
         github: 'https://github.com/aafrinshahas/weather-app'
     },
-    {   id: 3,
+    {   id: 4,
+        img: urban,
+        title: 'UrbanBazaar ["Frontend functionality in process"]',
+        desc: 'This is a online store application built with React.js and Tailwind CSS for the frontend, Express.js for the backend, and MongoDB Atlas for the database. It allows users to create accounts, log in, view product, and add products for checkout page.',
+        link: 'https://github.com/aafrinshahas/ecomm',
+        github: 'https://github.com/aafrinshahas/ecomm'
+    },
+    {   id: 5,
         img: aara,
         title: 'Aara Beauty Salon',
         desc: 'This project is a responsive website for beauty salon built using HTML, CSS, and JavaScript. It is designed to adapt and display properly on various devices, including desktops, tablets, and smartphones.',
         link: 'https://aafrinshahas.github.io/Aara-beauty-salon/',
         github: 'https://github.com/aafrinshahas/Aara-beauty-salon'
     },
-    {   id: 4,
+    {   id: 6,
         img: moms,
         title: `Mom's Belief`,
         desc: 'This project is a responsive landing page built using HTML, CSS, and JavaScript. It is designed to adapt and display properly on various devices, including desktops, tablets, and smartphones.',
         link: 'https://aafrinshahas.github.io/moms-belief/',
         github: 'https://github.com/aafrinshahas/moms-belief'
     },
-    {   id: 5,
+    {   id: 7,
         img: random,
         title: 'Random Number Checker App',
         desc: 'Check out this sleek and functional Random Number Checker built with React.js and styled using Tailwind CSS.',
         link: 'https://random-number-checker.vercel.app/',
         github: 'https://github.com/aafrinshahas/random-number-checker'
     },
-    {   id: 6,
+    {   id: 8,
         img: sharp,
         title: 'Sharp & Suave Online Store',
         desc: 'Welcome to Sharp & Suave, It is a responsive sample template for trendy mens fashion items. Our online store offers a curated collection of stylish clothing.',
