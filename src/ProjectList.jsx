@@ -35,8 +35,8 @@ function ProjectList(){
         img: urban,
         title: 'UrbanBazaar ["Frontend functionality in process"]',
         desc: 'This is a online store application built with React.js and Tailwind CSS for the frontend, Express.js for the backend, and MongoDB Atlas for the database. It allows users to create accounts, log in, view product, and add products for checkout page.',
-        link: 'https://github.com/aafrinshahas/ecomm',
-        github: 'https://github.com/aafrinshahas/ecomm'
+        link: 'https://urbanbazzar-dun.vercel.app/',
+        github: 'https://github.com/aafrinshahas/online-store-frontend'
     },
     {   id: 5,
         img: aara,
