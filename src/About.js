@@ -24,7 +24,7 @@ return(
     <div className="bar"></div>
     <p className='text-4xl text-[#00EA96]'>01</p>
     </div>
-    <p className='text-[#EDEDED] text-lg my-2'>As a dedicated MERN stack developer with 4 months of experience in web development and 2 years in frontend
+    <p className='text-[#EDEDED] text-lg my-2'>As a dedicated MERN stack developer with 2+ years in frontend
 development. Proficient in HTML, CSS, JavaScript, and React.js for crafting user interfaces. Skilled in building
 robust backend systems with Node.js and Express.js, and adept in MongoDB for database management. Equipped
 with Git version control, I’m driven to create visually appealing user experiences in MERN stack development.</p>
