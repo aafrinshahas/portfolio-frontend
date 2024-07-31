@@ -6,6 +6,7 @@ import random from './images/random.png'
 import sharp from './images/sharp.png'
 import bookapp from './images/bookapp.png'
 import urban from './images/urban.png'
+import chat from './images/chat-app.png'
 import { useState } from 'react'
 
 function ProjectList(){
@@ -39,27 +40,34 @@ function ProjectList(){
         github: 'https://github.com/aafrinshahas/online-store-frontend'
     },
     {   id: 5,
+        img: chat,
+        title: 'Chat App',
+        desc: 'This project develops a two-way chat application allowing real-time message exchange between clients and administrators. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and styled with Tailwind CSS, it uses Socket.IO for real-time communication.',
+        link: 'https://chat-app-beryl-three.vercel.app/',
+        github: 'https://github.com/aafrinshahas/chatapp-frontend'
+    },
+    {   id: 6,
         img: aara,
         title: 'Aara Beauty Salon',
         desc: 'This project is a responsive website for beauty salon built using HTML, CSS, and JavaScript. It is designed to adapt and display properly on various devices, including desktops, tablets, and smartphones.',
         link: 'https://aafrinshahas.github.io/Aara-beauty-salon/',
         github: 'https://github.com/aafrinshahas/Aara-beauty-salon'
     },
-    {   id: 6,
+    {   id: 7,
         img: moms,
         title: `Mom's Belief`,
         desc: 'This project is a responsive landing page built using HTML, CSS, and JavaScript. It is designed to adapt and display properly on various devices, including desktops, tablets, and smartphones.',
         link: 'https://aafrinshahas.github.io/moms-belief/',
         github: 'https://github.com/aafrinshahas/moms-belief'
     },
-    {   id: 7,
+    {   id: 8,
         img: random,
         title: 'Random Number Checker App',
         desc: 'Check out this sleek and functional Random Number Checker built with React.js and styled using Tailwind CSS.',
         link: 'https://random-number-checker.vercel.app/',
         github: 'https://github.com/aafrinshahas/random-number-checker'
     },
-    {   id: 8,
+    {   id: 9,
         img: sharp,
         title: 'Sharp & Suave Online Store',
         desc: 'Welcome to Sharp & Suave, It is a responsive sample template for trendy mens fashion items. Our online store offers a curated collection of stylish clothing.',
