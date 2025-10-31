@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import profile from './images/profile.png'
 import place from './images/place.png'
-import resume from './Documents/Aafrin.pdf'
+import resume from './images/Aafrin.pdf'
 
 function Home(){
     return(
