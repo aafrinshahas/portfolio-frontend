@@ -8,16 +8,17 @@ import bookapp from './images/bookapp.png'
 import urban from './images/urban.png'
 import chat from './images/chat-app.png'
 import dashboard from './images/dashboard.png'
+import voiceapp from './images/voice-app.png'
 import { useState } from 'react'
 
 function ProjectList(){
 const List = [
-{   id: 1,
-img: bookapp,
-title: 'Bookshelf',
-desc: 'Bookshelf is a web application built with React.js and Tailwind CSS for the frontend, Express.js for the backend, and MongoDB Atlas for the database. It allows users to create accounts, log in, view book descriptions, and save their favorite books.',
-link: 'https://bookapp-pi.vercel.app/',
-github: 'https://github.com/aafrinshahas/bookapp-frontend'
+  {   id: 1,
+img: voiceapp,
+title: 'Voice Enabled Task Tracker',
+desc: 'The Voice-Enabled Task Tracker is a full-stack productivity application built to create, manage, and track tasks using natural language voice commands. The frontend is developed with React.js, styled using TailwindCSS, and integrates the React Speech Recognition library to convert spoken input into structured task data such as title, priority, due date, and status.',
+link: 'https://voice-task-frontend-gamma.vercel.app/',
+github: 'https://github.com/aafrinshahas/voice-task-frontend'
 },
 {   id: 2,
 img: chat,
@@ -35,20 +36,27 @@ link: 'https://ecom-ultj.vercel.app/',
 github: 'https://github.com/aafrinshahas/ecom'
 },
 {   id: 4,
+img: bookapp,
+title: 'Bookshelf',
+desc: 'Bookshelf is a web application built with React.js and Tailwind CSS for the frontend, Express.js for the backend, and MongoDB Atlas for the database. It allows users to create accounts, log in, view book descriptions, and save their favorite books.',
+link: 'https://bookapp-pi.vercel.app/',
+github: 'https://github.com/aafrinshahas/bookapp-frontend'
+},
+{   id: 5,
 img: urban,
 title: 'UrbanBazaar',
 desc: 'This is a online store application built with React.js and Tailwind CSS for the frontend, Express.js for the backend, and MongoDB Atlas for the database. It allows users to create accounts, log in, view product, and add products for checkout page.',
 link: 'https://urbanbazzar-dun.vercel.app/',
 github: 'https://github.com/aafrinshahas/online-store-frontend'
 },
-{   id: 5,
+{   id: 6,
 img: todo,
 title: 'Activity Tracker App',
 desc: 'This is a activity tracker app built using React.js, Tailwind CSS for styling, React Router for navigation, and LocalStorage for storing the activity list.',
 link: 'https://actodo-chi.vercel.app/',
 github: 'https://github.com/aafrinshahas/actodo'
 },
-{   id: 6,
+{   id: 7,
 img: weather,
 title: 'Weather App',
 desc: 'This is a weather application built with React.js, Tailwind CSS, and Axios. Based on the user enter city name it fetches weather data from the OpenWeather API and displays it in the browser.',
@@ -57,7 +65,7 @@ github: 'https://github.com/aafrinshahas/weather-app'
 },
 
 ,
-{   id: 7,
+{   id: 8,
 img: sharp,
 title: 'Sharp & Suave Online Store',
 desc: 'Welcome to Sharp & Suave, It is a responsive sample template for trendy mens fashion items. Our online store offers a curated collection of stylish clothing.',
@@ -65,27 +73,27 @@ link: 'https://aafrinshahas.github.io/nostra-web/',
 github: 'https://github.com/aafrinshahas/nostra-web'
 },
 
-{   id: 8,
-img: moms,
-title: `Mom's Belief`,
-desc: 'This project is a responsive landing page built using HTML, CSS, and JavaScript. It is designed to adapt and display properly on various devices, including desktops, tablets, and smartphones.',
-link: 'https://aafrinshahas.github.io/moms-belief/',
-github: 'https://github.com/aafrinshahas/moms-belief'
-},
-{   id: 9,
-img: random,
-title: 'Random Number Checker App',
-desc: 'Check out this sleek and functional Random Number Checker built with React.js and styled using Tailwind CSS.',
-link: 'https://random-number-checker.vercel.app/',
-github: 'https://github.com/aafrinshahas/random-number-checker'
-},
-{   id: 10,
-img: aara,
-title: 'Aara Beauty Salon',
-desc: 'This project is a responsive website for beauty salon built using HTML, CSS, and JavaScript. It is designed to adapt and display properly on various devices, including desktops, tablets, and smartphones.',
-link: 'https://aafrinshahas.github.io/Aara-beauty-salon/',
-github: 'https://github.com/aafrinshahas/Aara-beauty-salon'
-}
+// {   id: 9,
+// img: moms,
+// title: `Mom's Belief`,
+// desc: 'This project is a responsive landing page built using HTML, CSS, and JavaScript. It is designed to adapt and display properly on various devices, including desktops, tablets, and smartphones.',
+// link: 'https://aafrinshahas.github.io/moms-belief/',
+// github: 'https://github.com/aafrinshahas/moms-belief'
+// },
+// {   id: 9,
+// img: random,
+// title: 'Random Number Checker App',
+// desc: 'Check out this sleek and functional Random Number Checker built with React.js and styled using Tailwind CSS.',
+// link: 'https://random-number-checker.vercel.app/',
+// github: 'https://github.com/aafrinshahas/random-number-checker'
+// },
+// {   id: 10,
+// img: aara,
+// title: 'Aara Beauty Salon',
+// desc: 'This project is a responsive website for beauty salon built using HTML, CSS, and JavaScript. It is designed to adapt and display properly on various devices, including desktops, tablets, and smartphones.',
+// link: 'https://aafrinshahas.github.io/Aara-beauty-salon/',
+// github: 'https://github.com/aafrinshahas/Aara-beauty-salon'
+// }
 ]
 
 const [visible, setVisible] = useState(3)

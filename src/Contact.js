@@ -58,8 +58,8 @@ return (
         <div className="box bg-[#EDEDED] shadow-slate-950 shadow-lg rounded-md p-2 flex items-center gap-4 my-5">
             <div className="icon bg-[#00EA96] rounded-md"><i class="fa-solid fa-phone text-xl"></i></div>
             <div className="info">
-                <p className="text-lg capitalize">call me</p>
-                <p className="text-md font-semibold">+91 9597514711</p>
+                <p className="text-lg capitalize">contact me</p>
+                <p className="text-md font-semibold"> <a href="https://www.linkedin.com/in/aafrin-shahanas/" target="_blank">linkedin/aafrin-shahanas</a></p>
             </div>
         </div>
         <div className="box bg-[#EDEDED] shadow-slate-950 shadow-lg rounded-md p-2 flex items-center gap-4 my-5">

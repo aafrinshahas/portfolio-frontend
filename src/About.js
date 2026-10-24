@@ -24,10 +24,12 @@ return(
     <div className="bar"></div>
     <p className='text-4xl text-[#00EA96]'>01</p>
     </div>
-    <p className='text-[#EDEDED] text-lg my-2'>As a dedicated MERN stack developer with 2+ years in frontend
-development. Proficient in HTML, CSS, JavaScript, and React.js for crafting user interfaces. Skilled in building
-robust backend systems with Node.js and Express.js, and adept in MongoDB for database management. Equipped
-with Git version control, I’m driven to create visually appealing user experiences in MERN stack development.</p>
+    <p className='text-[#EDEDED] text-lg my-2'>Frontend Developer with 4 years of experience building responsive, user-friendly web applications using HTML5, CSS3,
+JavaScript, TypeScript, and the React.js ecosystem. Delivered engagement-driven experiences for high-traffic media sites
+and micro-frontend-based enterprise interfaces for banking platforms. Skilled in Node.js, Express.js, and MongoDB for
+building REST APIs and full stack features. Experienced in developing reusable UI components, REST API integration, and
+cross-browser optimization, collaborating with cross-functional teams to deliver scalable solutions.
+</p>
 <div className="btns">
 <BrowserRouter>
     <Link to='#portfolio'><button className='bg-[#00EA96] font-semibold px-5 py-2 mt-4 rounded-r-3xl rounded-bl-3xl uppercase'><a href='#'>explore project</a></button></Link></BrowserRouter>
@@ -41,11 +43,18 @@ with Git version control, I’m driven to create visually appealing user experie
 <p className='font-semibold px-5 py-2 rounded-r-3xl rounded-bl-3xl uppercase border border-[#00EA96] text-[#00EA96] w-48 text-center'>experience</p>
 </div>
 <div className="list-container my-2">
+      <div className="list border-[#00EA96] border-b-2 my-3">
+        <p className='text-white py-2 text-lg font-semibold'>Software Engineer – Frontend</p>
+        <div className='text-[#EDEDED] flex justify-between py-2'>
+            <p>Capgemini (Client: Standard Chartered Bank), Bengaluru</p>
+            <p>March 2026 - Present</p>
+        </div>
+    </div>
     <div className="list border-[#00EA96] border-b-2 my-3">
-        <p className='text-white py-2 text-lg font-semibold'>Web Developer</p>
+        <p className='text-white py-2 text-lg font-semibold'>Software Engineer – Frontend </p>
         <div className='text-[#EDEDED] flex justify-between py-2'>
             <p>Greynium Technologies, Bengaluru</p>
-            <p>January 2024 - Present</p>
+            <p>January 2024 - March 2026</p>
         </div>
     </div>
     <div className="list border-[#00EA96] border-b-2 my-3">
