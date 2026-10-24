@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f3c7e0ca.css",
+    "main.js": "/static/js/main.f11adbb1.js",
+    "static/media/profile.png": "/static/media/profile.1d6512fa65a7071d9a09.png",
+    "static/media/sharp.png": "/static/media/sharp.51ff59db1308b7cc17c0.png",
+    "static/media/urban.png": "/static/media/urban.3cd6d60b8bc122a8a676.png",
+    "static/media/aara.png": "/static/media/aara.f0d3543138bf36f35b84.png",
+    "static/media/place.png": "/static/media/place.586f928d928bf2ecd075.png",
+    "static/media/voice-app.png": "/static/media/voice-app.15b849828e002a4d0667.png",
+    "static/media/random.png": "/static/media/random.df078fa9e6f93a64c040.png",
+    "static/media/login-page.png": "/static/media/login-page.630108c8c224fae8bd60.png",
+    "static/media/dashboard.png": "/static/media/dashboard.d2427c8a845a356d758a.png",
+    "static/media/weather.png": "/static/media/weather.c3d9552ed398846fd608.png",
+    "static/media/bookapp.png": "/static/media/bookapp.c55335da6ea43f8d6186.png",
+    "static/media/moms.png": "/static/media/moms.6ec0d15dc0f0ab948aac.png",
+    "static/media/chat-app.png": "/static/media/chat-app.ea9c0203824c610ed74e.png",
+    "static/media/Aafrin.pdf": "/static/media/Aafrin.b9c42fa78f866715a915.pdf",
+    "index.html": "/index.html",
+    "main.f3c7e0ca.css.map": "/static/css/main.f3c7e0ca.css.map",
+    "main.f11adbb1.js.map": "/static/js/main.f11adbb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3c7e0ca.css",
+    "static/js/main.f11adbb1.js"
+  ]
+}
